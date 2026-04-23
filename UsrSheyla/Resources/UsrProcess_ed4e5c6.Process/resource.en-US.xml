@@ -2,8 +2,8 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.StartEvent1.Caption" Value="Start" />
-			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End" />
+			<Item Name="BaseElements.StartEvent1.Caption" Value="Start2" />
+			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End2" />
 			<Item Name="Caption" Value="UsrDemoProcess" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
