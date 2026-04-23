@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1cf6db04-05d9-4d8c-a5e4-7dbdde62ad3c",
+    "Name": "UsrProcess_ed4e5c6",
+    "ModifiedOnUtc": "\/Date(1776973515000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "UsrDemoProcess",
+    "DependsOn": []
+  }
+}

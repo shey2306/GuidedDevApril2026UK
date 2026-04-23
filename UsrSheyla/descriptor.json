@@ -1,0 +1,11 @@
+﻿{
+  "Descriptor": {
+    "UId": "9a5be6d6-b913-4a5d-87c4-2663f3a26d46",
+    "Name": "UsrSheyla",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(-62135578800000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrSheyla.csproj",
+    "DependsOn": []
+  }
+}
