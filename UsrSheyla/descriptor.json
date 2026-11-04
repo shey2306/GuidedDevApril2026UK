@@ -3,9 +3,16 @@
     "UId": "9a5be6d6-b913-4a5d-87c4-2663f3a26d46",
     "Name": "UsrSheyla",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(-62135578800000)\/",
+    "ModifiedOnUtc": "\/Date(1777057873000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/UsrSheyla.csproj",
-    "DependsOn": []
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
   }
 }
