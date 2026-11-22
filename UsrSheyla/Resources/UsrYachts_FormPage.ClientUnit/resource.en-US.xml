@@ -3,11 +3,17 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yachts form page" />
+			<Item Name="LocalizableStrings.addRecord_1w5lq0c_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_afkr357_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_j7vgr3e_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_lntvr84_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_q18908k_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_sygjx2i_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_w9mo8io_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ManagerEmail_label.Value" Value="Manager email" />
+			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers count cannot be less than 2." />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 150 EUR" />
+			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 		</Items>
 	</Group>
 </Resources>
