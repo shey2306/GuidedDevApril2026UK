@@ -326,6 +326,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtBaseConsts">
 			<HintPath>$(RelativePkgFolderPath)/CrtBaseConsts/$(StandalonePackageAssemblyPath)/CrtBaseConsts.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -551,11 +556,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360App">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtC360InUiV2">
 			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -574,9 +574,13 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/Account/Account.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtCategory/UsrYachtCategory.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtCategory/UsrYachtCategory.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtCategoryStorage/UsrYachtCategoryStorage.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtCategoryStorage/UsrYachtCategoryStorage.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtDriveType/UsrYachtDriveType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtDriveType/UsrYachtDriveType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtRental/UsrYachtRental.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtRental/UsrYachtRental.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachts/UsrYachts.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachts/UsrYachts.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtStatus/UsrYachtStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYachtStatus/UsrYachtStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYatchDriveType/UsrYatchDriveType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrSheyla/Schemas/UsrYatchDriveType/UsrYatchDriveType.cs')" />
